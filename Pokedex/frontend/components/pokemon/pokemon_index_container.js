@@ -3,8 +3,9 @@ import {selectAllPokemon} from '../../reducers/selectors';
 import PokemonIndex from './pokemon_index';
 import {requestAllPokemon} from '../../actions/pokemon_actions';
 
-const mSTP = state => ({
-  pokemon: selectAllPokemon(state)
+const mSTP = (state, ownProps) => ({
+  pokemon: selectAllPokemon(state),
+  // pokemonId: ownProps.match.params.pokemonId
 });
 
 const mDTP = dispatch => ({

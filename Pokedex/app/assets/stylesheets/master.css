@@ -1,26 +1,105 @@
-img {
+.poke img {
   height: 30px;
   width: 30px;
   margin-top: 8px;
   padding-left: 20px;
   padding-right: 20px;
-  text-align: center;
 }
 
-li {
+.poke {
+  padding-left: 30px;
   list-style-type: none;
   width: 200px;
   height: 50px;
-  margin-left: 30px;
-  padding-left: 30px;
-  border-top: 1px powderblue solid;
-  font-size: 15px;
-  font-weight: bold;
   font-family: 'Comfortaa';
 }
 
-li:hover {
+.poke:hover {
   background-color: tomato;
   color: white;
-  border-radius: 20px;
+  border-radius: 15px;
+}
+
+.pokeDetailImg {
+  height: 400px;
+  width: 400px;
+  /* margin: auto; */
+}
+
+.pokelist {
+  display: flex;
+  /* justify-content: space-around; */
+}
+.list {
+  margin-left: 30px;
+  padding-left: 30px;
+  font-size: 15px;
+  font-family: 'Comfortaa';
+  text-decoration: none;
+}
+
+.pokeDetail {
+  width: 67%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.navlink {
+  padding-left: 50px;
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+
+.navlink:hover {
+  color: tomato;
+}
+
+.itemDetails {
+  padding-left: 50px;
+  list-style-type: none;
+  /* background-color: powderblue; */
+  color: black;
+  font-family: 'Comfortaa';
+  font-size: 20px;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+
+.itemImg {
+  background-color: powderblue;
+  width: 150px;
+  height: 150px;
+  padding-bottom: 50px;
+}
+
+.itemImg:hover {
+  background-color: powderblue;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: black;
+  font-family: 'Comfortaa'
+}
+
+.pokelists {
+  text-decoration: none;
+  color: black;
+}
+
+.items {
+  font-size: 20px;
+}
+
+.itemslists {
+  display: flex;
+}
+
+.itemdet {
+  padding-bottom: 10px;
 }
